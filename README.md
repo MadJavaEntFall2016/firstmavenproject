@@ -3,4 +3,4 @@ This is a simple first application to help you practice with IntelliJ, Tomee+ an
 To run the application
 1. Set up your application server
 2. Configure build and run
-3. 
+3.
