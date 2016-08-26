@@ -1,7 +1,7 @@
 package com.paulawaite.entity;
 
 /**
- * Created on 8/25/16.
+ * A class to represent a user.
  *
  * @author pwaite
  */
