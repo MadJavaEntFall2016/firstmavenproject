@@ -11,17 +11,18 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * Created by student on 8/25/16.
+ * A simple servlet to welcome the user.
+ * @author pwaite
  */
 
 @WebServlet(
         urlPatterns = {"/welcome"}
 )
 
-public class WelcomeServlet extends HttpServlet {
+public class Welcome extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        User user = new User("Java", "Superstars", "jr001");
+        User user = new User("Java", "Superstar", "jr001");
         req.setAttribute("user", user);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/welcome.jsp");
         dispatcher.forward(req, resp);
