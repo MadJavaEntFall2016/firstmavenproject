@@ -9,8 +9,5 @@ To begin using this project:
 1. Download the zip file from GitHub.
 2. Extract the zip on your computer.
 3. From the IntelliJ Welcome Screen, choose "Open". Use the browser to navigate to the directory that you just extracted.
-4. Configure the JDK.
-5. Configure the application server.
-6. Build and deploy.
-
-## Next Steps
+4. Edit the run configuration.
+5. Build and deploy.
